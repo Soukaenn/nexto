@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>File d'attente</title>
+<link rel="stylesheet" href="attente.css">
+</head>
+<body>
+<header class="navbar">
+<div class="logo">Nexto</div>
+</header>
+<h1 class="title">File d’attente</h1>
+<section class="table-container">
+<table>
+<thead>
+<tr>
+<th>Numéro</th>
+<th>Service</th>
+<th>Statut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C10</td>
+<td>Permis de conduire</td>
+<td><span class="status waiting">En attente</span></td>
+</tr>
+<tr>
+<td>C09</td>
+<td>Carte d’identité</td>
+<td><span class="status progress">En cours</span></td>
+</tr>
+<tr>
+<td>C08</td>
+<td>Certificat de résidence</td>
+<td><span class="status done">Terminé</span></td>
+</tr>
+</tbody>
+</table></section>
+<div class="alert">
+⏱ Temps estimé d’attente : <strong>10 minutes</strong>
+</div>
+<div class="btn-container">
+<button class="refresh">Actualiser</button>
+</div>
+</body>
+</html>

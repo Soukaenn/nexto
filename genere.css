@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    text-align: center;
+}
+
+.navbar {
+    background: linear-gradient(to right, #4da3ff, #2f80ed);
+    padding: 15px 40px;
+    color: white;
+    text-align: left;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ticket-container {
+    width: 350px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.ticket-container h2 {
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.ticket-number {
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.label {
+    color: #777;
+    font-size: 14px;
+}
+
+.value {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+    background: #ffe5e5;
+    color: #040404;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.back button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.back button:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background: #ffffff;
+}
+
+
+.navbar {
+    background: linear-gradient(to right, #4da3ff, #2f80ed);
+    padding: 18px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.title {
+    text-align: center;
+    margin: 40px 0 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.table-container {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 25px;
+}
+
+thead tr {
+    background: linear-gradient(to right, #4da3ff, #2f80ed);
+}
+
+th, td {
+    padding: 14px 20px;
+    font-size: 17px;
+}
+
+th:first-child,
+td:first-child {
+    width: 20%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 55%;
+}
+
+th:last-child,
+td:last-child {
+    width: 25%;
+    text-align: right;
+}
+
+.status {
+    padding: 8px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.waiting {
+    background: #28a745;
+    color: white;
+}
+
+.progress {
+    background: #f4c542;
+    color: black;
+}
+
+.done {
+    background: #e74c3c;
+    color: white;
+}
+
+.alert {
+    width: 420px;
+    margin: 60px auto 20px;
+    background: #f8d7da;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    color: #842029;
+    font-size: 15px;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.refresh {
+    padding: 12px 70px;
+    background: linear-gradient(to right, #4da3ff, #2f80ed);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.refresh:hover {
+    opacity: 0.9;
+}
